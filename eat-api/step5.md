@@ -21,7 +21,7 @@
 
 
 3. Call order api to create a order with that store id.
-`curl -X POST -v http://localhost:5000/order -H 'authorization: 740becc4b623786cc812c956a5afb30e' -H 'Content-Type: application/json' -d @./order_service/sample_order_data.json`{{execute}}
+`curl -X POST -v http://localhost:5000/order -H 'authorization: 740becc4b623786cc812c956a5afb30e' -H 'Content-Type: application/json' -d @./order_service/sample_order_data4.json`{{execute}}
 
 
 4. Cannot craete because the store is not active anymore.
