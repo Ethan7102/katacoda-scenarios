@@ -13,6 +13,8 @@
 ![Architecture](./assets/Architecture.png)
 ![Architecture](./assets/architecture2.png)
 ![Architecture](./assets/architecture2.png)
+![Katacoda Logo](./assets/architecture.png)
+![Katacoda Logo](./assets/architecture2.png)
 ![Katacoda Logo](./assets/logo-text-with-head.png)
 
 # The REST API strcture
