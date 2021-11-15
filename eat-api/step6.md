@@ -1,7 +1,9 @@
 # Microservices Metrics
 
 In our Eat API, we use Prometheus to get the microservices metrics and logs messages. 
+
 Prometheus also monitors solutions for storing time-series data like metrics. 
+
 We mainly target 4 microservices (Authentication, Store, Menu, and Order microservices) to monitor their functions.
 
 To get Authentication service's metrics, Execute:
