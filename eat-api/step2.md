@@ -40,7 +40,7 @@ For this operation, the API only allows the order with the state "CREATED" or "D
 
 `curl -X POST -v http://localhost:5000/orders/f9f363d1-e1c2-4595-b477-c649845bc952/cancel -H 'authorization: 740becc4b623786cc812c956a5afb30e' -H 'Content-Type: application/json' -d '{"reason":"CANNOT_COMPLETE_CUSTOMER_NOTE","details":"note is impossible"}'`{{execute}}
 
-For this operation, the API only allows the order with the state "CREATED" can be updated the delivery status.
+For this operation, the API only allows the order which its' state is not "CREATED" can be updated the delivery status.
 Three delivery status is allowed including "started", "arriving" and "delivered".
 
 * /orders/< order_id >/restaurantdelivery/status
