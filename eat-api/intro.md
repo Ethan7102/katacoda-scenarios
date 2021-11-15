@@ -1,10 +1,14 @@
-## Table of Contents
+# Microservice
 
 - 1.Authentication service
 - 2.Order service
 - 3.Store service
 - 4.Menu service
 - 5.listener service
+
+# Architecture
+
+![alt text](https://github.com/Ethan7102/katacoda-scenarios/blob/main/eat-api/image.PNG)
 
 # The REST API strcture
 ```
