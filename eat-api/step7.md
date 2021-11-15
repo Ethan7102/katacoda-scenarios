@@ -13,7 +13,7 @@ After we access Grafana, we need to log in to view the dashboard. We have config
 
 We can then successfully log in the Grafana. in the left side taskbar, we hover the dashboard
 
-![alt text](https://https://github.com/kuendeee/uploadimage/blob/main/22.png?raw=true) 
+![Alt text](https://github.com/kuendeee/uploadimage/blob/main/22.png) 
 
 and click **Manage**.
 
