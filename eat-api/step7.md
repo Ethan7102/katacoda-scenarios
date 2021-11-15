@@ -11,8 +11,11 @@ In the box, we type **3000** and click the **Display port** button to access the
 
 After we access Grafana, we need to log in to view the dashboard. We have configured the username and password as **COMP3122** and **12345** respectively.
 
-We can then successfully log in the Grafana. in the left side taskbar, we hover the dashboard 
-![alt text](https://https://github.com/kuendeee/uploadimage/blob/main/22.png?raw=true) and click **Manage**.
+We can then successfully log in the Grafana. in the left side taskbar, we hover the dashboard
+
+![alt text](https://https://github.com/kuendeee/uploadimage/blob/main/22.png?raw=true) 
+
+and click **Manage**.
 
 Then, we can click into the dashboard folder and **Application Health Monitoring**.
 
