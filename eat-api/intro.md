@@ -5,6 +5,8 @@
 - 3.Store service
 - 4.Menu service
 - 5.listener service
+- 6.Microservices Metrics - Prometheus
+- 7.Grafana Dashboard
 
 # The REST API strcture
 ```
