@@ -36,8 +36,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh",
-      "image": "https://www.mail-signatures.com/wp-content/uploads/2019/02/How-to-find-direct-link-to-image_Blog-Picture.png"
+      "code": "foreground.sh"
     }
   },
   "environment": {
