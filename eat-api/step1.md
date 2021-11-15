@@ -1,5 +1,5 @@
 # 1.1 Basics
-clone Eat API from GitHub repository and enther the repository folder
+clone Eat API from GitHub repository and enter the repository folder
 
 `git clone https://github.com/Ethan7102/COMP3122-Project.git`{{execute}}
 
@@ -9,7 +9,7 @@ Build the docker images using the Dockerfile in the folders
 
 `docker-compose up`{{execute}}
 
-Open another terminal and enther the repository folder to continually practice 
+Open another terminal and enter the repository folder to continually practice 
 
 `cd COMP3122-Project`{{execute}}
 
