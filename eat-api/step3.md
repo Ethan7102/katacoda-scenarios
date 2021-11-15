@@ -1,4 +1,34 @@
-# 3.1 supporting services by store microservice
+# 3.1 Test case of store service
+
+The test case of store service contains four test cases.
+
+1. List All Stores response code 200
+2. List All Stores check return json
+3. Get Store with id response code 200
+4. Get Store with id check return json
+5. Get Store status with id response code 200
+6. Get Store status with id check return json
+7. Set Store status with id response code 200
+8. Set Store status with id check return json
+9. Test listener service response code 200
+10. Get Store holiday_hours response code 200
+11. Get Store holiday_hours check return json
+12. Set Store holiday_hours response code 200
+13. Set Store holiday_hours check return json
+
+To run the test, we need to install pytest & redis, Execute
+
+`python3 -m pip install pytest`{{execute}}
+
+`python3 -m pip install redis`{{execute}}
+
+After installed the pytest, Execute
+
+`python3 -m pytest -v test_store_service.py`{{execute}}
+
+
+
+# 3.2 supporting services by store microservice
 
 The store microservice support various functions as follows:
 
@@ -50,33 +80,3 @@ The store microservice support various functions as follows:
 
 `curl -v http://localhost:5000/store-metrics -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
 
-
-
-
-# 3.2 Test case of store service
-
-The test case of store service contains four test cases.
-
-1. List All Stores response code 200
-2. List All Stores check return json
-3. Get Store with id response code 200
-4. Get Store with id check return json
-5. Get Store status with id response code 200
-6. Get Store status with id check return json
-7. Set Store status with id response code 200
-8. Set Store status with id check return json
-9. Test listener service response code 200
-10. Get Store holiday_hours response code 200
-11. Get Store holiday_hours check return json
-12. Set Store holiday_hours response code 200
-13. Set Store holiday_hours check return json
-
-To run the test, we need to install pytest & redis, Execute
-
-`python3 -m pip install pytest`{{execute}}
-
-`python3 -m pip install redis`{{execute}}
-
-After installed the pytest, Execute
-
-`python3 -m pytest -v test_store_service.py`{{execute}}
