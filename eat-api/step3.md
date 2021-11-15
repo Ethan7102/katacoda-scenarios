@@ -40,7 +40,7 @@ The store microservice support various functions as follows:
 `curl -v http://localhost:5000/stores -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
 
 
-2.Show the store info with specific store id
+2. Show the store info with specific store id
 
 '/store/< store_id >' 
 
@@ -62,19 +62,19 @@ The store microservice support various functions as follows:
 `curl -v http://curl localhost:5000/store/7e973b58-40b7-4bd8-b01c-c7d1cbd194f6/setStatus?newStatus=PAUSED&reason=NA -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
 
 
-5.show the holiday_hours with specific store id
+5. show the holiday_hours with specific store id
 
 '/store/< store_id >/holiday-hours'
 
 `curl -v http://localhost:5000/store/7e973b58-40b7-4bd8-b01c-c7d1cbd194f6/holiday-hours -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
 
-6.set store restaurant status with specific store id
+6. set store restaurant status with specific store id
 
 '/store/< store_id >/setHoliday-hours'
 
 `curl -v http://localhost:5000/store/7e973b58-40b7-4bd8-b01c-c7d1cbd194f6/setHoliday-hours?jsonInputString=%7B%20%22holiday_hours%22%3A%20%7B%20%222020-12-24%22%3A%20%7B%20%22open_time_periods%22%3A%20%5B%20%7B%20%22start_time%22%3A%20%2200%3A00%22%2C%20%22end_time%22%3A%20%2200%3A00%22%20%7D%20%5D%20%7D%20%7D%20%7D -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
 
-7.see metrics of store api
+7. see metrics of store api
 
 '/store-metrics'
 
