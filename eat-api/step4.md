@@ -33,4 +33,4 @@ To run the test, we need to install pytest & redis, Execute
 
 After installed the pytest, Execute
 
-`python3 -m pytest -v test_menu_serivce.py`{{execute}}
+`python3 -m pytest -v test_menu_service.py`{{execute}}
