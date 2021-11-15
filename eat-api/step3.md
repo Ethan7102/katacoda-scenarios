@@ -59,7 +59,7 @@ The store microservice support various functions as follows:
 
 '/store/< store_id >/setStatus'
 
-`curl -v http://curl localhost:5000/store/7e973b58-40b7-4bd8-b01c-c7d1cbd194f6/setStatus?newStatus=PAUSED&reason=NA -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
+`curl -v -H 'authorization: 740becc4b623786cc812c956a5afb30e' http://localhost:5000/store/7e973b58-40b7-4bd8-b01c-c7d1cbd194f6/setStatus?newStatus=PAUSED&reason=NA`{{execute}}
 
 
 5. show the holiday_hours with specific store id
