@@ -10,7 +10,7 @@
 
 # Architecture
 
-![Architecture](./assets/architecture_edit.png)
+![Architecture](./assets/architecture_edited.png)
 ![Katacoda Logo](./assets/logo-text-with-head.png)
 
 # The REST API strcture
