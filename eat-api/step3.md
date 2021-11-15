@@ -79,4 +79,4 @@ To run the test, we need to install pytest & redis, Execute
 
 After installed the pytest, Execute
 
-`python3 -m pytest -v test_store_serivce.py`{{execute}}
+`python3 -m pytest -v test_store_service.py`{{execute}}
