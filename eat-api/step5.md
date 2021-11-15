@@ -9,7 +9,7 @@
 # 5.2 Demo:
 
 0. Call order api to create a order with that store id. and we can create order.
-`curl -v http://localhost:5000/stores/15e652b8-40b5-4b58-b01d-c7d15bd114d6/created-orders?limit=5 -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
+`curl -X POST -v http://localhost:5000/order -H 'authorization: 740becc4b623786cc812c956a5afb30e' -H 'Content-Type: application/json' -d @./order_service/sample_order_data3.json`{{execute}}
 
 
 1. Call store api to change a store status to PAUSED, then will publish the message.
@@ -21,7 +21,7 @@
 
 
 3. Call order api to create a order with that store id.
-`curl -v http://localhost:5000/stores/15e652b8-40b5-4b58-b01d-c7d15bd114d6/created-orders?limit=5 -H 'authorization: 740becc4b623786cc812c956a5afb30e'`{{execute}}
+`curl -X POST -v http://localhost:5000/order -H 'authorization: 740becc4b623786cc812c956a5afb30e' -H 'Content-Type: application/json' -d @./order_service/sample_order_data.json`{{execute}}
 
 
 4. Cannot craete because the store is not active anymore.
