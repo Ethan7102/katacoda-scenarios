@@ -1,4 +1,4 @@
-# Microservices
+# Microservice
 
 - 1.Authentication service
 - 2.Order service
@@ -10,8 +10,7 @@
 
 # Architecture
 
-![Architecture](./assets/architecture.png)
-![Architecture](./assets/architecture.png)
+![Architecture](./assets/architecture_edit.png)
 
 # The REST API strcture
 ```
