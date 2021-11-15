@@ -10,7 +10,7 @@
 
 # Architecture
 
-![alt text](https://github.com/Ethan7102/katacoda-scenarios/blob/main/eat-api/image.PNG)
+![alt text](https://github.com/Ethan7102/katacoda-scenarios/blob/main/eat-api/architecture.png)
 
 # The REST API strcture
 ```
