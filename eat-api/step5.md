@@ -14,7 +14,7 @@
 
 1. Call store api to change a store status to PAUSED, then will publish the message.
 
-`curl -v -H 'authorization: 740becc4b623786cc812c956a5afb30e' http://localhost:5000/store/15e652b8-40b5-4b58-b01d-c7d15bd114d6/setStatus?newStatus=PAUSED&reason=NA `{{execute}}
+`curl -v -H 'authorization: 740becc4b623786cc812c956a5afb30e' http://localhost:5000/store/85e652b8-40b5-4b58-b01d-c7d15bd114d6/setStatus?newStatus=PAUSED&reason=NA `{{execute}}
 
 
 2. listener microservice catched the message then updated the redis of order api
