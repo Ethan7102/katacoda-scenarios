@@ -10,9 +10,10 @@
 
 # Architecture
 
-![Architecture](./assets/architecture_edit.png)
-![Architecture](./assets/architecture_edit.png)
-
+![Architecture](./assets/Architecture.png)
+![Architecture](./assets/Architecture.png)
+![Architecture](./assets/Architecture.png)
+![Architecture](./assets/Architecture.png)
 # The REST API strcture
 ```
 .
