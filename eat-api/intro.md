@@ -9,8 +9,7 @@
 - 7.Grafana Dashboard
 
 # Architecture
-![Katacoda Logo](./architecture.png)
-![Katacoda Logo](./architecture.png)
+![Katacoda Logo](./assets/architecture.png)
 # The REST API strcture
 ```
 .
