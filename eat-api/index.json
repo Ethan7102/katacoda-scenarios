@@ -24,6 +24,14 @@
       {
         "title": "listener microservice",
         "text": "step5.md"
+      },
+      {
+        "title": "Microservice Metrics - Prometheus",
+        "text": "step6.md"
+      },
+      {
+        "title": "Grafana Dashboard",
+        "text": "step7.md"
       }
     ],
     "intro": {
