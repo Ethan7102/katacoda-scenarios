@@ -11,6 +11,7 @@
 # Architecture
 
 ![Architecture](./assets/architecture_edit.png)
+![Architecture](./assets/architecture_edit.png)
 
 # The REST API strcture
 ```
